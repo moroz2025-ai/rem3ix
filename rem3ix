@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rem3ix — Ремонт під ключ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="logo.jpeg" alt="Логотип rem3ix" class="logo">
+            <h1>rem3ix</h1>
+            <nav>
+                <a href="#services">Послуги</a>
+                <a href="#portfolio">Портфоліо</a>
+                <a href="#contact">Контакти</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h2>Ремонт квартир “під ключ”</h2>
+        <p>Якість. Стиль. Надійність.</p>
+    </section>
+
+    <section id="services">
+        <h2>Наші послуги</h2>
+        <ul>
+            <li>Комплексний ремонт</li>
+            <li>Сантехніка, електрика</li>
+            <li>Дизайн інтер'єру</li>
+        </ul>
+    </section>
+
+    <section id="portfolio">
+        <h2>Наші роботи</h2>
+        <div class="gallery">
+            <img src="repair1.jpg" alt="Приклад ремонту 1">
+            <img src="repair2.jpg" alt="Приклад ремонту 2">
+            <img src="repair3.jpg" alt="Приклад ремонту 3">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Контакти</h2>
+        <p>Телефон: +38 (000) 000-00-00</p>
+        <p>Email: info@rem3ix.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 rem3ix. Всі права захищені.</p>
+    </footer>
+</body>
+</html>
